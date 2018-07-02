@@ -1,0 +1,88 @@
+            /* HTMl */
+
+html {
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+}
+
+            /* Header */
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hlink {
+  position: relative;
+  right: 10px;
+}
+.hlogo {
+  position: relative;
+  left: 10px;
+}
+.hlogo img {
+  height: 50px;
+}
+.link {
+}
+.link a {
+  color: seashell;
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+            /* Our Mission */
+
+.om {
+  display: flex;
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.omp {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+}
+.mr1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+.mr2 {
+  height: 750px;
+  align-items: center;
+  display: flex;
+}
+.mr3 {
+  background-color: black;
+  width: 1200px;
+}
+            /* Tea of the Month */
+
+
+
+            /* Locations */
+
+
+
+            /* Footer */
