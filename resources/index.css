@@ -1,5 +1,5 @@
             /* HTMl */
-            
+
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -23,6 +23,10 @@ header {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  height: 69px;
 }
 .hlink {
   position: relative;
@@ -142,6 +146,7 @@ header {
 }
 
             /* Footer */
+
 .footer {
   display: flex;
   flex-direction: column;
