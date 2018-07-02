@@ -37,8 +37,6 @@ header {
 .hlogo img {
   height: 50px;
 }
-.link {
-}
 .link a {
   color: seashell;
   text-decoration: underline;
@@ -77,12 +75,73 @@ header {
   background-color: black;
   width: 1200px;
 }
+
             /* Tea of the Month */
 
-
+.totm img {
+  height: 200px;
+  width: 300px;
+  display: flex;
+}
+.totm h4 {
+  margin: 10px;
+}
+.totm {
+  text-align: center;
+  margin: 15px;
+}
+.totms {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.totmheader {
+  text-align: center;
+  width: 1000px;
+}
+.totmteas {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
 
             /* Locations */
 
-
+.locationsection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 580px;
+}
+.locationimg {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 570px;
+  justify-content: center;
+}
+.location{
+  text-align: center;
+  height: 100px;
+}
+.locationbox {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+}
+.locationboxes {
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+}
+.locations h2 {
+  margin: 0;
+  padding: 0;
+}
 
             /* Footer */
+            
